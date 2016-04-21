@@ -19,10 +19,10 @@ for ($i = 0; $i < $item->length; $i++)
 	$fecha = $item->item($i)->getElementsByTagName("pubDate");
 	$contenido = $item->item($i)->getElementsByTagName("description");
 	
-	$tituloXml = strip_tags(($titulo->item($a)->nodeValue));
-	$enlaceXml = $enlace->item($a)->nodeValue;
-	$contenidoXml = strip_tags($contenido->item($a)->nodeValue);
-	$fechaXml = $fecha->item($a)->nodeValue;
+	$tituloXml = strip_tags(($titulo->item(0)->nodeValue));
+	$enlaceXml = $enlace->item(0)->nodeValue;
+	$contenidoXml = strip_tags($contenido->item(0)->nodeValue);
+	$fechaXml = $fecha->item(0)->nodeValue;
 }
 	
 ?>
