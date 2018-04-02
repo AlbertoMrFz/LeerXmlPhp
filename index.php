@@ -8,7 +8,7 @@ function leerXml($urlXml)
 	return $documentElement;        
 }
 
-$url = "http://feeds.weblogssl.com/xataka2"
+$url = "http://feeds.weblogssl.com/xataka2";
 $contenidoDom = leerXml($url);
 
 $item = $contenidoDom->getElementsByTagName("item");
