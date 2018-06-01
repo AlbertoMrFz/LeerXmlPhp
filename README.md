@@ -1,2 +1,2 @@
 # LeerXmlPhp
-Script para leer y analizar xml mediante DOM
+Script to read and analyze xml by DOM
